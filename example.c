@@ -1,6 +1,5 @@
 static void B() { }
-static void G() { B(); }
-static void A() { B(); G(); }
+static void A() { B(); }
 
 int main() {
   A();
